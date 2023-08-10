@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'legaltech_mockup.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'v44M5OsJRaayBwCi4y8J',
+        'HOST': 'containers-us-west-48.railway.app',
+        'PORT': '7892',
 
         # 'OPTIONS': {
         #     # 'service': 'my_service',
